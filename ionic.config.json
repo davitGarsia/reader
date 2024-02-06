@@ -1,0 +1,7 @@
+{
+  "name": "lit-ge",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
