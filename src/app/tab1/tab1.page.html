@@ -1,17 +1,17 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title> LIT GE </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <!-- Other content -->
+  <!-- <div id="viewer"></div> -->
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <app-explore-container name="LIT.GE"> </app-explore-container>
+  <!-- <div id="viewer"></div> -->
+
+  <div #viewer id="viewer"></div>
+  <ion-button (click)="prevPage()">Previous Page</ion-button>
+  <ion-button (click)="nextPage()">Next Page</ion-button>
 </ion-content>
